@@ -7,6 +7,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 6px;
+    
   }
   
   .loginParentDiv .input {
@@ -15,7 +16,13 @@
     border-right-color: transparent;
     outline-color: transparent;
   }
-  
+  .loginParentDiv .loginerror {
+    position: absolute;
+    color: red;
+    width: 100%;
+    padding-top: 0px;
+}  
+
   .loginParentDiv button {
     width: 100%;
     height: 48px;
@@ -23,6 +30,10 @@
     background-color: #002f34;
     color: whitesmoke;
     font-weight: 900;
+    
+  }
+  .loginParentDiv .Link{
+    text-decoration: none;
   }
   .loginParentDiv button:hover {
     background-color: white;

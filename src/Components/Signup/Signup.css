@@ -15,6 +15,14 @@
     border-right-color: transparent;
     outline-color: transparent;
   }
+  .signupParentDiv .error {
+    position: absolute;
+    width: 100%;
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
   
   .signupParentDiv button {
     width: 100%;
@@ -35,4 +43,17 @@
     justify-content: center;
     cursor: pointer;
   }
-  
+  .signupParentDiv .loginLink{
+    width: 100%;
+    height: 48px;
+    /* border-color: transparent; */
+    background-color: #002f34;
+    color: whitesmoke;
+    font-weight: 900;
+    text-decoration: none;
+  }
+  .signupParentDiv .loginLink:hover {
+    background-color: white;
+    color: #002f34;
+    border: 2px solid #002f34;
+  }
